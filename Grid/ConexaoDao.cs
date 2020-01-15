@@ -10,7 +10,7 @@ namespace Grid
         public static SqlConnection conexao()
         {
 
-            string strConexao = "Server=OSASHOMOLOG; Initial Catalog=DB_TGESTIONA;user id=sa;pwd=osasAdminHomologa";
+            string strConexao = "Server=WIN-5L8CHT3FIOH\\SQLEXPRESS2016; Initial Catalog=BD_TGESTIONA;user id=sa;pwd=osas@Admin";
 
 
             var conn = new SqlConnection(strConexao);
